@@ -1,4 +1,4 @@
-
+🗒️ Development Check list
 - [x] Adicionar classes do mapa 
 > - [x] Pessoa
 > - [x] Vendedor
