@@ -5,7 +5,7 @@
 In projected i will make a micro system using concptions of POO.
 
 # My structure
-Produtos
+### Produtos
 |Name|Type|
 | --- | --- |
 | Código | String |
@@ -18,7 +18,7 @@ Produtos
 |Adiconar_estoque()|
 |Remover_estoque()|
 
-Loja
+### Loja
 |Name|Type|
 | --- | --- |
 | Codigo | String |
@@ -28,6 +28,8 @@ Loja
 | Telefone | String |
 | Endereço | String |
 
+### Pessoa
+
 |Name|Type|
 | --- | --- |
 | Nome | String |
@@ -36,10 +38,11 @@ Loja
 | Telefone | String |
 | CPF | String |
 
-Vendedor extends Pessoa
+### Vendedor extends Pessoa
+
 |Name|Type|
 | --- | --- |
-| Numero_ctpis | INT |
+| Numero_ctps | INT |
 | Salario | Double |
 | Turno | Enum |
 
