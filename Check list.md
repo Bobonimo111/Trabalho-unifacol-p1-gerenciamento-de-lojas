@@ -1,15 +1,15 @@
 
 - [x] Adicionar classes do mapa 
-> - [x]Pessoa
-> - [x]Vendedor
-> - [x]Loja
-> - [x]Produto 
+> - [x] Pessoa
+> - [x] Vendedor
+> - [x] Loja
+> - [x] Produto 
 ---
 - [ ] Adicionar serviços do mapa
-> - [ ]Serviço de vendas
-> - [ ]Atendimento ao cliente
+> - [ ] Serviço de vendas
+> - [ ] Atendimento ao cliente
 ---
-- [ ]Adicionar repositorios
+- [ ] Adicionar repositorios
 > - [ ] Produtos
 > - [ ] Lojas
 ---
