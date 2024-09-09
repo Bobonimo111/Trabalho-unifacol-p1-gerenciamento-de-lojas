@@ -1,19 +1,19 @@
 package Objetos;
 
 public class Produto {
-    private String code;
+    private int code;
     private String nome;
     private float valor;
     private int QuantidadeDisponivelEmEstoque;
 
-    public Produto(String code, String nome, float valor, int quantidadeDisponivelEmEstoque) {
+    public Produto(int code, String nome, float valor, int quantidadeDisponivelEmEstoque) {
         this.code = code;
         this.nome = nome;
         this.valor = valor;
         this.QuantidadeDisponivelEmEstoque = quantidadeDisponivelEmEstoque;
     }
 
-    public String getCode() {
+    public int getCode() {
         return code;
     }
 
