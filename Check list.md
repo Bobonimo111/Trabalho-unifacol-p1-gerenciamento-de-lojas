@@ -9,8 +9,18 @@
 > - [ ] Serviço de vendas
 > - [ ] Atendimento ao cliente
 ---
-- [ ] Adicionar repositorios
-> - [ ] Produtos
+- [ ]Adicionar repositorios
+> - [X] Produtos
 > - [ ] Lojas
 ---
 - [ ] Corrigir a busca por codigo, não vai funcionar ja que ele puxa o codigo do array e não do objeto; 
+> - [ ] Repositorio Produtos
+> - [ ] Repositorio Lojas
+
+
+## Testes 
+- [x] CRUD de produtos 
+
+
+## Extras 
+- [ ] Adicionar um banco de dados com SQLITE para salvar logs
