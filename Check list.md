@@ -18,6 +18,8 @@
 > - [ ] Repositorio Lojas
 
 
+- [ ] MENU 
+
 ## Testes 
 - [x] CRUD de produtos 
 

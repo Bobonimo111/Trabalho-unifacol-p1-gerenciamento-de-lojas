@@ -39,4 +39,11 @@ public class Vendedor extends Pessoa {
         this.turno = turno;
     }
 
+    @Override
+    public String toString() {
+        return String.format("%s %s %s %s %s ", super.getNome(), super.getCpf(), super.getData(), super.getEndereco(),
+                super.getTelefone(),
+                this.getCtps(), this.getSalario(), this.getTurno());
+    }
+
 }
