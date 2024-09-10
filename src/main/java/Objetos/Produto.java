@@ -17,6 +17,10 @@ public class Produto {
         return code;
     }
 
+    public void setCode(int code) {
+        this.code = code;
+    }
+
     public String getNome() {
         return nome;
     }

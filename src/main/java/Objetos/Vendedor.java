@@ -41,9 +41,7 @@ public class Vendedor extends Pessoa {
 
     @Override
     public String toString() {
-        return String.format("%s %s %s %s %s ", super.getNome(), super.getCpf(), super.getData(), super.getEndereco(),
-                super.getTelefone(),
-                this.getCtps(), this.getSalario(), this.getTurno());
+        // TODO Auto-generated method stub
+        return super.toString();
     }
-
 }

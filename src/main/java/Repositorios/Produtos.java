@@ -2,22 +2,31 @@ package Repositorios;
 
 import java.util.ArrayList;
 
+import Interfaces.Icrud;
 import Objetos.Produto;
 
-public class Produtos {
+public class Produtos implements Icrud<Produto> {
 
     private ArrayList<Produto> Armazenamento = new ArrayList<>();
 
     // O codigo definido é o valor na posição da array list
-    public void post(String nome, float valor, int quantidadeDisponivelEmEstoque) {
-        Produto produto = new Produto(Armazenamento.size(), nome, valor, quantidadeDisponivelEmEstoque);
+    @Override
+    public void post(Produto produto) {
+        produto.setCode(Armazenamento.size());
         this.Armazenamento.addLast(produto);
     }
 
+    @Override
     public Produto get(int id) {
         return Armazenamento.get(id);
     }
 
+    @Override
+    public void put(Produto produto) {
+        Armazenamento.set(produto.getCode(), produto);
+    }
+
+    @Override
     public Produto[] getAll() {
         Produto[] p = this.Armazenamento.toArray(new Produto[0]);
         return p;
@@ -32,9 +41,5 @@ public class Produtos {
     // public void delete(Produto produto) {
     // this.Armazenamento.remove(produto);
     // }
-
-    public void put(Produto produto) {
-        Armazenamento.set(produto.getCode(), produto);
-    }
 
 }

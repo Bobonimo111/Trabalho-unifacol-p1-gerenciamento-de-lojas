@@ -19,7 +19,7 @@
 
 
 - [ ] MENU 
-
+- [ ] Adicionar ToString para Vendedor
 ## Testes 
 - [x] CRUD de produtos 
 

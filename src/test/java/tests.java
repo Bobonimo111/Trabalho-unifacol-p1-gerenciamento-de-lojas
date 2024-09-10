@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 import Objetos.Produto;
 import Repositorios.Produtos;
@@ -17,14 +16,14 @@ public class tests {
         // repositorioProdutos.delete(1);
         // System.out.println("PRODUTO 1 ZERADO");
 
-        Produto newProduto = repositorioProdutos.get(0);
-        newProduto.setNome("Lapezeira");
-        repositorioProdutos.put(newProduto);
+        // Produto newProduto = repositorioProdutos.get(0);
+        // newProduto.setNome("Lapezeira");
+        // repositorioProdutos.put(newProduto);
 
-        // for (Produto p : repositorioProdutos.getAll()) {
-        // System.out.println("=================================");
-        // System.out.println(p.toString());
-        // }
+        for (Produto p : repositorioProdutos.getAll()) {
+            System.out.println("=================================");
+            System.out.println(p.toString());
+        }
 
         // System.out.println(repositorioProdutos.get(0).toString());
 
