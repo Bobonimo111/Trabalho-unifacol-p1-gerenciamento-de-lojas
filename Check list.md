@@ -9,13 +9,13 @@
 > - [ ] Serviço de vendas
 > - [ ] Atendimento ao cliente
 ---
-- [ ]Adicionar repositorios
+- [x]Adicionar repositorios
 > - [X] Produtos
-> - [ ] Lojas
+> - [x] Lojas
 ---
-- [ ] Corrigir a busca por codigo, não vai funcionar ja que ele puxa o codigo do array e não do objeto; 
-> - [ ] Repositorio Produtos
-> - [ ] Repositorio Lojas
+- [x] Corrigir a busca por codigo, não vai funcionar ja que ele puxa o codigo do array e não do objeto; 
+> - [x] Repositorio Produtos
+> - [x] Repositorio Lojas
 
 
 - [ ] MENU 

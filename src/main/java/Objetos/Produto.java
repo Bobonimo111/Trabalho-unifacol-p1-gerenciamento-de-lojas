@@ -1,25 +1,27 @@
 package Objetos;
 
 public class Produto {
-    private int code;
+    private int codigo;
     private String nome;
     private float valor;
     private int QuantidadeDisponivelEmEstoque;
 
-    public Produto(int code, String nome, float valor, int quantidadeDisponivelEmEstoque) {
-        this.code = code;
+    public Produto(int codigo, String nome, float valor, int quantidadeDisponivelEmEstoque) {
+        this.codigo = codigo;
         this.nome = nome;
         this.valor = valor;
         this.QuantidadeDisponivelEmEstoque = quantidadeDisponivelEmEstoque;
     }
 
-    public int getCode() {
-        return code;
+    public int getCodigo() {
+        return codigo;
     }
 
-    public void setCode(int code) {
-        this.code = code;
-    }
+    /*
+     * public void setCode(int codigo) {
+     * this.codigo = codigo;
+     * }
+     */
 
     public String getNome() {
         return nome;
@@ -54,6 +56,6 @@ public class Produto {
         return "Nome : " + this.nome +
                 "\nValor : " + this.valor +
                 "\nDisponivel em estoque : " + this.QuantidadeDisponivelEmEstoque +
-                "\nCode : " + this.code + "";
+                "\nCode : " + this.codigo + "";
     }
 }

@@ -4,13 +4,13 @@ import Tipos.Tipo;
 
 public class Loja {
     private String endereco;
-    private String codigo;
+    private int codigo;
     private String nome_fantasia;
     private String telefone;
     private Tipo tipo;
     private String cnpj;
 
-    public Loja(String endereco, String codigo, String nome_fantasia, String telefone, Tipo tipo, String cnpj) {
+    public Loja(String endereco, int codigo, String nome_fantasia, String telefone, Tipo tipo, String cnpj) {
         this.endereco = endereco;
         this.codigo = codigo;
         this.nome_fantasia = nome_fantasia;
@@ -27,11 +27,11 @@ public class Loja {
         this.endereco = endereco;
     }
 
-    public String getCodigo() {
+    public int getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(String codigo) {
+    public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
 
@@ -65,6 +65,12 @@ public class Loja {
 
     public void setCnpj(String cnpj) {
         this.cnpj = cnpj;
+    }
+
+    @Override
+    public String toString() {
+        return "Loja [endereco=" + endereco + ", codigo=" + codigo + ", nome_fantasia=" + nome_fantasia + ", telefone="
+                + telefone + ", tipo=" + tipo + ", cnpj=" + cnpj + "]";
     }
 
 }
